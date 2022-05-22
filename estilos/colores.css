@@ -23,7 +23,7 @@ ul li{
 
 nav ul li {
     display: inline-block;
-    margin: 10px;
+    margin: 1vh;
     
     
 }
@@ -41,7 +41,7 @@ body{
     background-color: rgb(105, 105, 105);
 }
 div{
-    margin: 10px;
+    margin: 1vw;
 }
 figure{
     
@@ -76,20 +76,11 @@ h1, h2{
 
 }
 img{
-    
+    margin-left: 5rem;
     border-radius: 0.5cm;
-    
+    margin-bottom: 3em;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    padding-left: 1%;
-    background-color: rgb(255, 165, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
+
 
 figcaption{
     margin-left: 50px;
@@ -112,6 +103,14 @@ nav{
 ul{
     display: flex;
 
+}
+
+.colorfooter{
+    background-color: orange;
+    
+}
+.colortextofooter{
+    color: black;
 }
 
 .galeria{
