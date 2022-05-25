@@ -8,35 +8,36 @@ header{
     display: flex;
     justify-content: center;
     background-color: rgb(255, 196, 0);
+    nav ul li {
+        display: inline-block;
+        margin: 1vh;  
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 0,5cm;
+            font-family: 'Poppins', sans-serif;
+            list-style-type: none;
+            
+            }
+    }     
     
-      
 }
 
-ul li{
-    list-style-type: none;
+nav{
+    display: flex;
+    align-items: end;
+    
+    
+}
+ul{
+    display: flex;
+
 }
 .principal{
     color: orange;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1%;
 }
-
-nav ul li {
-    display: inline-block;
-    margin: 1vh;
-    
-    
-}
-
-nav ul li a{
-text-decoration: none;
-color: rgb(0, 0, 0);
-font-size: 0,5cm;
-font-family: 'Poppins', sans-serif;
-
-
-}
-
 body{
     background-color: rgb(105, 105, 105);
 }
@@ -69,10 +70,7 @@ div h3{
     
 h1, h2{
     background-color: rgb(105, 105, 105);
-    padding: 20px;
-    margin-left: 70px;
-    margin-right: 60%;
-    margin-bottom: 10px;   
+     
 
 }
 img{
@@ -94,16 +92,6 @@ figcaption{
     justify-content: center;
 }
 
-nav{
-    display: flex;
-    align-items: end;
-    
-    
-}
-ul{
-    display: flex;
-
-}
 
 .colorfooter{
     background-color: orange;
