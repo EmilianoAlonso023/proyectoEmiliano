@@ -1,27 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import "generales";
+@import "index";
+
 *{
     padding: 0%;
     margin:0%;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 196, 0);
-    nav ul li {
-        display: inline-block;
-        margin: 1vh;  
-        a{
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            font-size: 0,5cm;
-            font-family: 'Poppins', sans-serif;
-            list-style-type: none;
-            
-            }
-    }     
-    
-}
+
 
 nav{
     display: flex;
@@ -30,54 +15,13 @@ nav{
     
 }
 ul{
-    display: flex;
+    display: flex;}
 
-}
-.principal{
-    color: orange;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 1%;
-}
+    
 body{
     background-color: rgb(105, 105, 105);
 }
-div{
-    margin: 1vw;
-}
-figure{
-    
-    margin-left: 100px;
-    margin-top: 0px;
-}
-#subtitulo{
-    color:rgb(3, 3, 3);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 20px;
-    text-align: center;
-}
 
-p{
-    color:rgb(3, 3, 3);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 10px;
-       
-}
-
-div h3{
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    }
-    
-h1, h2{
-    background-color: rgb(105, 105, 105);
-     
-
-}
-img{
-    margin-left: 5rem;
-    border-radius: 0.5cm;
-    margin-bottom: 3em;
-}
 
 
 figcaption{

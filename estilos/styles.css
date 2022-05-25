@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,6 +21,11 @@ header nav ul li a {
   list-style-type: none;
 }
 
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,16 +39,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.principal {
-  color: orange;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 1%;
-}
-
-body {
-  background-color: dimgray;
 }
 
 div {
@@ -86,6 +75,16 @@ img {
   margin-left: 5rem;
   border-radius: 0.5cm;
   margin-bottom: 3em;
+}
+
+.principal {
+  color: orange;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1%;
+}
+
+body {
+  background-color: dimgray;
 }
 
 figcaption {
