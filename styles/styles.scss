@@ -1,26 +1,6 @@
 @import "generales";
 @import "index";
 
-*{
-    padding: 0%;
-    margin:0%;
-}
-
-
-
-nav{
-    display: flex;
-    align-items: end;
-    
-    
-}
-ul{
-    display: flex;}
-
-    
-body{
-    background-color: rgb(105, 105, 105);
-}
 
 
 
@@ -37,13 +17,7 @@ figcaption{
 }
 
 
-.colorfooter{
-    background-color: orange;
-    
-}
-.colortextofooter{
-    color: black;
-}
+
 
 .galeria{
     display: grid;
