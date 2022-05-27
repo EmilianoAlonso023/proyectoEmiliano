@@ -45,14 +45,6 @@ body header nav ul li a {
   list-style-type: none;
 }
 
-.colorfooter {
-  background-color: orange;
-}
-
-.colorfooter .colortextofooter {
-  color: black;
-}
-
 div {
   margin: 1vw;
 }
@@ -76,10 +68,12 @@ p {
 }
 
 div h3 {
+  color: #ffaf37;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1, h2 {
+  color: #ffaf37;
   background-color: dimgray;
 }
 
@@ -247,6 +241,14 @@ figcaption {
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-areas: "header" "galeria" "main" "footer";
   }
+}
+
+.colorfooter {
+  background-color: orange;
+}
+
+.colorfooter .colortextofooter {
+  color: black;
 }
 
 .contenedor:hover {
