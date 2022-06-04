@@ -9,9 +9,9 @@ $orange:rgb(250, 169, 62);
 }
 
 $redes: (
-    twitter: #55acee,
-    facebook: #3a5795,
-    instagram: #C25E30,
+    ubicacion: #55acee,
+    horarios: #3a5795,
+    calificaciones: #C25E30,
 );
 @each $red, $color in $redes {
 .btn--#{$red}{
@@ -44,6 +44,13 @@ $redes: (
 }
 
 .elmixin{
-    @include color (300px, 50px);
-    background-color: goldenrod
+    @include color (95%, 50%);
+    background-color: goldenrod;
+    border-style: dashed;
+
+}
+.mix{
+    @include color(500px,500px);
+    border-style:dotted
+    
 }

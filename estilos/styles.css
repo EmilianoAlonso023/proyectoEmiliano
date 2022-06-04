@@ -95,15 +95,15 @@ img {
   background-color: black;
 }
 
-.btn--twitter {
+.btn--ubicacion {
   background-color: #55acee;
 }
 
-.btn--facebook {
+.btn--horarios {
   background-color: #3a5795;
 }
 
-.btn--instagram {
+.btn--calificaciones {
   background-color: #C25E30;
 }
 
@@ -128,9 +128,16 @@ img {
 }
 
 .elmixin {
-  height: 50px;
-  width: 300px;
+  height: 50%;
+  width: 95%;
   background-color: goldenrod;
+  border-style: dashed;
+}
+
+.mix {
+  height: 500px;
+  width: 500px;
+  border-style: dotted;
 }
 
 figcaption {
