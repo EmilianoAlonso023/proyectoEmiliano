@@ -1,0 +1,49 @@
+$ancho:800px;
+$black:rgb(0, 0, 0);
+$orange:rgb(250, 169, 62);
+
+.principal{
+    width: $ancho/2;
+    height: 100px;
+    background-color: $black;
+}
+
+$redes: (
+    twitter: #55acee,
+    facebook: #3a5795,
+    instagram: #C25E30,
+);
+@each $red, $color in $redes {
+.btn--#{$red}{
+    background-color: $color;
+}
+}
+.redSocial{
+    border: 1px solid violet;
+    background-color: rgb(255, 172, 47);
+}
+.redsocial--social{
+    @extend.redSocial;
+    border-radius: 15px;
+}
+.redsocial--nueva{
+    @extend.redSocial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-radius: 15px;
+}
+.redsocial--proxima{
+    @extend.redSocial;
+    font-size: small;
+    border-radius: 15px;
+}
+
+@mixin color ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.elmixin{
+    @include color (300px, 50px);
+    background-color: goldenrod
+}

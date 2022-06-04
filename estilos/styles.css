@@ -89,6 +89,50 @@ img {
   margin: 1%;
 }
 
+.principal {
+  width: 400px;
+  height: 100px;
+  background-color: black;
+}
+
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
+
+.btn--instagram {
+  background-color: #C25E30;
+}
+
+.redSocial, .redsocial--social, .redsocial--nueva, .redsocial--proxima {
+  border: 1px solid violet;
+  background-color: #ffac2f;
+}
+
+.redsocial--social {
+  border-radius: 15px;
+}
+
+.redsocial--nueva {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  border-radius: 15px;
+}
+
+.redsocial--proxima {
+  font-size: small;
+  border-radius: 15px;
+}
+
+.elmixin {
+  height: 50px;
+  width: 300px;
+  background-color: goldenrod;
+}
+
 figcaption {
   margin-left: 50px;
   margin-bottom: 40px;
