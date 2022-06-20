@@ -3,50 +3,24 @@
 @import "index";
 
 
-
-
-figcaption{
-    margin-left: 50px;
-    margin-bottom: 40px;
-}
-
-
 .flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-
-
-
 .galeria{
     display: grid;
-     margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    gap: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    gap: 10px;
     grid-template-columns:  1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:   
     "galeria galeria"
      ;
 
-}
-
-@media only screen and (max-width: 780px) {
-
-    .galeria{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-        grid-template-areas:   
-        "header"
-        "galeria"
-        "main"
-        "footer"
-         ;
-    }
- 
 }
 
 @media only screen and (max-width: 1024px){
@@ -102,7 +76,38 @@ figcaption{
 }
 @media only screen and (max-width: 780px) {
 
+
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
     .galeria2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria4{
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
         grid-template-areas:   
@@ -115,7 +120,17 @@ figcaption{
  
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
     .galeria2{
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -126,66 +141,67 @@ figcaption{
         "footer"
          ;
     }
-}
-@media only screen and (max-width: 1024px){
-.galeria3{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas:   
-    "header"
-    "galeria"
-    "main"
-    "footer"
-     ;
-}
-}
-
-@media only screen and (max-width: 1024px){
-.galeria3{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas:   
-    "header"
-    "galeria"
-    "main"
-    "footer"
-     ;
-}
-}
-
-@media only screen and (max-width: 1024px){
-.galeria4{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas:   
-    "header"
-    "galeria"
-    "main"
-    "footer"
-     ;
-}
-}
-
-
-@media only screen and (max-width: 1024px){
-.galeria4{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas:   
-    "header"
-    "galeria"
-    "main"
-    "footer"
-     ;
-}
-}
-.colorfooter{
-    background-color: orange;
-     .colortextofooter{
-        color: black;
+    .galeria3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria4{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
     }
 }
-.contenedor:hover{
-    transform: scale(2);
-transition-duration: 1s;
+
+@media only screen and (max-width: 300px){
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
+    .galeria4{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas:   
+        "header"
+        "galeria"
+        "main"
+        "footer"
+         ;
+    }
 }
