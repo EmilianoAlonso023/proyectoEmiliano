@@ -70,15 +70,6 @@ h1 {
           transition-duration: 1s;
 }
 
-.boton4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 figure {
   margin-left: 2rem;
   margin-top: 3em;
@@ -122,6 +113,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 10px;
 }
 
 .flex {
